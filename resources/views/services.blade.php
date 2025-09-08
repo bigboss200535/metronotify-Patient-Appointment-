@@ -91,7 +91,6 @@
      <!-- Footer Start -->
    @include('includes.in_footer') 
     <!-- Footer End -->
-
     <!-- Back to Top -->
     @include('includes.to_top') 
     <!-- JavaScript Libraries -->

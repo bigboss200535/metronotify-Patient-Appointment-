@@ -4,33 +4,42 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
         <title>{{ config('app.name', 'Laravel') }}</title>
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-
+         @include('includes.in_favicon') 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{ asset('portal/vendors/styles/core.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('portal/vendors/styles/icon-font.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('portal/src/plugins/datatables/css/dataTables.bootstrap4.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('portal/src/plugins/datatables/css/responsive.bootstrap4.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('portal/vendors/styles/style.css') }}">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119386393-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-119386393-1');
+        </script>
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-            @include('layouts.navigation')
-
-            <!-- Page Heading -->
-            @if (isset($header))
-                <header class="bg-white dark:bg-gray-800 shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
-            @endif
-
-            <!-- Page Content -->
+    <body>
+            @include('layouts.loader')
+            @include('layouts.topbar')
+            @include('layouts.layoutsetting')
+            @include('layouts.sidebar')
             <main>
                 {{ $slot }}
             </main>
-        </div>
-    </body>
+    <script src="{{ asset('portal/vendors/scripts/core.js') }}"></script>
+    <script src="{{ asset('portal/vendors/scripts/script.min.js') }}"></script>
+    <script src="{{ asset('portal/vendors/scripts/process.js') }}"></script>
+    <script src="{{ asset('portal/vendors/scripts/layout-settings.js') }}"></script>
+    <script src="{{ asset('portal/src/plugins/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ asset('portal/src/plugins/datatables/js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('portal/src/plugins/datatables/js/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('portal/src/plugins/datatables/js/dataTables.responsive.min.js') }}"></script>
+    <script src="{{ asset('portal/src/plugins/datatables/js/responsive.bootstrap4.min.js') }}"></script>
+    <script src="{{ asset('portal/vendors/scripts/dashboard3.js') }}"></script>
+ </body>
 </html>

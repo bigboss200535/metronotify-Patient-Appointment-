@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\AppointmentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 Route::middleware('web')->group(function () {
     // Home routes
     Route::view('/', 'home')->name('home');
@@ -23,7 +26,7 @@ Route::middleware('web')->group(function () {
     Route::view('/about', 'about')->name('about');
     Route::view('/contact', 'contact')->name('contact');
     Route::view('/appointments', 'appointments')->name('appointments');
-    Route::view('/portal', 'portal')->name('portal');
+    Route::view('/selfservice/portal', 'portal.login')->name('login');
     
     // Services group
     Route::prefix('services')->group(function () {
@@ -40,16 +43,27 @@ Route::middleware('web')->group(function () {
     });
 });
 
-
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
+Route::middleware(['auth', 'verified'])->group(function () {
+      // Route::get('/selfservice/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+
+    Route::prefix('selfservice')->group(function () {
+            Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
+            Route::get('/appointmentlist', [AppointmentController::class, 'index'])->name('appointment.index');
+    });
 });
+
+// Route::get('/selfservice/dashboard', function () {
+//     return view('/portal/dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
+
+// Route::middleware('auth')->group(function () {
+//     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+//     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+//     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+// });
 
 require __DIR__.'/auth.php';

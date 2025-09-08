@@ -560,7 +560,6 @@
     <p></p>
     <p></p>
     <p></p>
-    
     <!-- Vendor Start -->
     @include('includes.in_accredited') 
     <!-- Vendor End -->
@@ -568,7 +567,6 @@
      @include('includes.in_footer') 
     <!-- Footer End -->
     <!-- Back to Top -->
-  
     @include('includes.to_top') 
     <!-- JavaScript Libraries -->
 

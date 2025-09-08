@@ -27,11 +27,9 @@
     <!-- Spinner Start -->
        @include('includes.in_spinner') 
     <!-- Spinner End -->
-
      <!-- Topbar Start -->
        @include('includes.in_topbar') 
     <!-- Topbar End -->
-
     <!-- Navbar Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
