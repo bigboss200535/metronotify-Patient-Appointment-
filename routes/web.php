@@ -41,7 +41,7 @@ Route::middleware('web')->group(function () {
         Route::view('/', 'services')->name('services');
         Route::view('/dental', 'services.dental')->name('services.dental');
         Route::view('/eye', 'services.eye')->name('services.eye');
-        Route::view('/generalmedicine', 'services.general')->name('services.general');
+        Route::view('/general-medicine', 'services.general')->name('services.general');
         Route::view('/geriatric', 'services.geriatric')->name('services.geriatric');
         Route::view('/obstetrics', 'services.obstetrics')->name('services.obstetrics');
         Route::view('/surgery', 'services.surgery')->name('services.surgery');

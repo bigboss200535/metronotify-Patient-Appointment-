@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
+     <title>Magazine Clinic, Kumasi | Clinic & Medical Services, Pine Avenue</title>
     @include('includes.in_favicon') 
 </head>
 <body>
@@ -60,7 +60,7 @@
     <!-- Full Screen Search End -->
 
 
-    <!-- Blog Start -->
+    <!-- eye content Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
@@ -69,16 +69,29 @@
                     <div class="mb-5">
                         <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/blog-1.jpg') }}" alt="">
                         <h1 class="mb-4">Eye Care</h1>
-                        <p>Today’s woman is busier than ever, balancing careers, families, and a myriad of other responsibilities.
-						We at @include('includes.in_facility')  understand and are committed to bringing smiles to your faces. Our consultants are passionate to
-						supply solutions to preconception, antenatal, and postnatal concerns.</p>
-                        <p>We offer labour and delivery services. We also offer programmes, classes, and support for our expecting mothers.</p>
+                        <p>
+                        Our Eye Department provide world-class medical and surgical eye care for the entire family. We offer a unique, integrated approach. Our board-certified ophthalmologists and optometrists work to protect not just your sight, but your total health.
+                       </p>
+                        <p>Many systemic conditions, like diabetes and hypertension, are first detected through an eye exam. Here, your eye health is a vital piece of your overall wellness picture, ensuring you receive the most coordinated and comprehensive care possible.
+                        </p>
+
                         <p>Subspecialty services supplied include general obstetrics and gynaecology, maternal-fetal medicine, 
 						, gynecologic oncology, and family planning.</p>
-                        <p>Our doctors are very meticulous when it comes to your gynaecological needs.
-						Do not hesitate to call and book an appointment with us anywhere, anytime, any day.</p>
+                        <p>Our doctors are very meticulous when it comes to your gynaecological needs.</p>
+                        <p>Do not hesitate to call and book an appointment with us anywhere, anytime, any day.</p>
+
+                        <p><b>Our Specialized Eye Care Services</b></p>
+                        <p>We offer a full continuum of eye care, from routine vision exams to complex, sight-saving surgeries.</p>
+                        <p>
+                            <ul>
+                                <li>Comprehensive Eye Exams</li>
+                                <li>Medical Ophthalmology & Disease Management</li>
+                                <li>Surgical Ophthalmology</li>
+                                <li>Emergency Eye Care</li>
+                            </ul>
+                        </p>
                     </div>
-                    <!-- Blog Detail End -->
+                    <!-- eye content End -->
 					
                     <!-- Comment Form Start -->
                     <div class="bg-light rounded p-5">
@@ -124,7 +137,7 @@
                             <h3 class="mb-0 light-color">Other Services</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/general') }}"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/general-medicine') }}"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
                             <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Geriatrics /Elderly Care</a> -->
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Obstetrics & Gynaecology Care</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/dental') }}"><i class="bi bi-arrow-right me-2"></i>Dental Care</a>

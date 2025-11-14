@@ -36,7 +36,7 @@
 }
 
 .gold-text:hover {
-    color: var(--light);
+    color: var(--metro-fill-gold);
 }
 
 .metro-fill-gold {
@@ -44,6 +44,10 @@
 }
 
 .light-color {
+    color: var(--metro-fill-gold) !important;
+}
+
+.menu-text {
     color: var(--metro-fill-gold) !important;
 }
 

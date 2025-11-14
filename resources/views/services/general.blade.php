@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
+     <title>Magazine Clinic, Kumasi | Clinic & Medical Services, Pine Avenue</title>
     @include('includes.in_favicon') 
 </head>
 <body>
@@ -68,16 +68,35 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/serv1-blog-1.jpg') }}" alt="">
-                        <h1 class="mb-4 light-color">General and Family Medicine</h1>
-                        <p>Our department have highly experienced specialists in family medicine. 
-						      These specialists provide the best medical response to your condition.  
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/service-1-2.jpg') }}" alt="General Medicine">
+                        <h1 class="mb-4">General and Family Medicine</h1>
+                        <p>Welcome to the heart of our healthcare services; the Department of General Medicine. We are dedicated to providing expert medical care for a wide range of adult and adolescent health conditions. Our team is your partner in health, offering diagnosis, management, and compassionate care for all your medical needs.  
                         </p>
-                        <p>Our specialists work together with the general laboratory service to 
-						confirm a diagnosis before appropriate management is given. 
-						Book an appointment with our specialist today and feel the touch.
+                        <p>At the core of our department are highly experienced specialists in family medicine. They are more than just doctors;    they are skilled diagnosticians and compassionate caregivers who take the time to understand you and your health story. Whether you're managing a chronic condition like diabetes or hypertension, dealing with an acute illness, or simply seeking a routine check-up, our specialists are equipped to provide the best medical response to your condition.
                         </p>
-                      
+                        <p>
+                            We believe in a holistic approach, considering your lifestyle, family history, and personal health goals to create a management plan that is as unique as you are.
+                        </p>
+                        <p>
+                           <strong> An accurate diagnosis is the foundation of effective treatment. We leave nothing to chance.</strong>
+                           
+                               <ol> <b>Thorough Consultation:</b> Your journey begins with an in-depth conversation. Our specialists will listen to your concerns, conduct a comprehensive physical examination, and discuss your symptoms in detail.
+                               </ol>
+                               <ol>
+                                    <b>Precision Through Collaboration:</b> To ensure we pinpoint the exact cause of your ailment, our specialists work together with the general laboratory service. From blood tests and urinalysis to advanced diagnostic screenings, we use precise, data-driven results to confirm a diagnosis before any appropriate management is given.
+                               </ol>
+                               <ol>
+                                    <b>Personalized Management Plan:</b> Once a diagnosis is confirmed, we work with you to develop a clear, effective treatment plan. This may include medication, lifestyle adjustments or physical therapy.
+                               </ol>
+                          </p>
+                          <p>
+                            <strong> Why Choose Our General Medicine Department?</strong>
+                              <ol><b>Experienced Specialists: </b>Board-certified physicians with years of experience in family and internal medicine.</ol>
+                              <ol><b>Accurate Diagnostics: </b>  Collaboration with our in-house lab ensures swift and reliable results.</ol>
+                              <ol><b>Continuity of Care:</b> We build long-term relationships with our patients, managing your health throughout all stages of life.</ol>
+                              <ol><b>Compassionate Environment:</b> We believe in treating the person, not just the illness.</ol>
+                          </p>
+
                     </div>
                     <!-- Blog Detail End -->
 
@@ -127,7 +146,7 @@
                         <div class="link-animated d-flex flex-column justify-content-start">
                             <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/geriatric') }}"><i class="bi bi-arrow-right me-2"></i>Geriatric / Elderly Care</a> -->
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Obstetrics/Gynaecology</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/ent') }}"><i class="bi bi-arrow-right me-2"></i>Dental Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/dental') }}"><i class="bi bi-arrow-right me-2"></i>Dental Care</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/eye') }}"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/surgery') }}"><i class="bi bi-arrow-right me-2"></i>General Surgery</a>
 							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/services/pharmacy') }}"><i class="bi bi-arrow-right me-2"></i>Pharmacy Services</a>
@@ -138,23 +157,18 @@
 					
                     <!-- Image Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-2.jpg') }}" alt="" class="img-fluid rounded">
+                        <img src="{{ asset('img/service-0-2.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
                     <!-- Image End -->
-					
 					<!-- Image Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-3.jpg') }}" alt="" class="img-fluid rounded">
+                        <img src="{{ asset('img/service-0-3.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
                     <!-- Image End -->
-					
-					
 					<!--Blank Space-->
 					<p></p>
 					<p></p>
 					<!--Blank Space-->
-					
-    
                    <!-- Plain Text Start -->
                     <div class="wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">

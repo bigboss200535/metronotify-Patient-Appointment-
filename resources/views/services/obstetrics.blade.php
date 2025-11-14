@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
+     <title>Magazine Clinic, Kumasi | Clinic & Medical Services, Pine Avenue</title>
     @include('includes.in_favicon') 
 </head>
 <body>
@@ -67,17 +67,22 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/blog-1.jpg') }}" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{ asset('img/service-1-1.jpg') }}" alt="">
                         <h1 class="mb-4">Obstetrics and Gynaecology</h1>
-                        <p>Today’s woman is busier than ever, balancing careers, families, and a myriad of other responsibilities.
-						We at @include('includes.in_facility') understand and are committed to bringing smiles to your faces. Our consultants are passionate to
-						supply solutions to preconception, antenatal, and postnatal concerns.</p>
-                        <p>We offer labour and delivery services. We also offer programmes, classes, and support for our expecting mothers.</p>
-                        <p>Subspecialty services supplied include general obstetrics and gynaecology, maternal-fetal medicine, 
-						, gynecologic oncology, and family planning.</p>
-                        <p>Our doctors are very meticulous when it comes to your gynaecological needs.
-						Do not hesitate to call and book an appointment with us anywhere, anytime, any day.</p>
-						   
+                        <p>From the first flutter to the first cry, the path to parenthood is a profound and personal story. At Magazine Clinic, we are honored to be your guide and support system through this incredible chapter. Our philosophy is simple: to provide the expert medical care and heartfelt encouragement you need to feel confident, empowered, and cared for every step of the way.
+                        </p>
+                        <p> We offer a sanctuary where your questions are answered, your choices are respected, and your joy is our shared goal.</p>
+                       
+                        <b>Your Journey with Us:</b>
+                        <p>
+                            <ol><b>Before You Conceive:</b> Start your journey with confidence through personalized preconception planning.</ol>
+                            <ol><b>Throughout Your Pregnancy:</b> Receive meticulous prenatal care, including genetic counseling, ultrasound, and wellness classes in our supportive community.</ol>
+                            <ol><b>For Your Birth:</b> Experience our modern labor and delivery suites, where your birth plan is our priority.</ol>
+                            <ol><b>After Your Arrival:</b> Rely on our postnatal and breastfeeding support to ensure a smooth transition into life with your newborn.
+                            </ol>
+                        </p>
+                        <p>Let’s embark on this beautiful journey together. Contact us to meet our obstetric team and tour our facilities.</p>
+
                     </div>
                     <!-- Blog Detail End -->
 					
@@ -125,9 +130,9 @@
                             <h3 class="mb-0 light-color">Other Services</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/general"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/general-medicine"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
                             <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/obstetrics"><i class="bi bi-arrow-right me-2"></i>Geriatrics /Elderly Care</a> -->
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/ent"><i class="bi bi-arrow-right me-2"></i>ENT Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/dental"><i class="bi bi-arrow-right me-2"></i>Dental Care</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/eye"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/surgery"><i class="bi bi-arrow-right me-2"></i>General Surgery</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/pharmacy"><i class="bi bi-arrow-right me-2"></i>Pharmacy Services</a>
@@ -140,7 +145,7 @@
 					
 					<!-- Image Start -->
 					<div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="{{ asset('img/blog-2.jpg') }}" alt="" class="img-fluid rounded">
+                        <img src="{{ asset('img/service-1-3.jpg') }}" alt="" class="img-fluid rounded">
                     </div>
 					 <!-- Image End -->
 					

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
+     <title>Magazine Clinic, Kumasi | Clinic & Medical Services, Pine Avenue</title>
      @include('includes.in_favicon') 
 </head>
 <body>
@@ -124,14 +124,13 @@
                             <h3 class="mb-0 light-color">Other Services</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/general') }}"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
-                            <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="{{ url('/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Geriatrics /Elderly Care</a> -->
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Obstetrics & Gynaecology Care</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/eye') }}"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/surgery') }}"><i class="bi bi-arrow-right me-2"></i>General Surgery</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/pharmacy') }}"><i class="bi bi-arrow-right me-2"></i>Pharmacy Services</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 glight-color" href="{{ url('/laboratory') }}"><i class="bi bi-arrow-right me-2"></i>Laboratory Services</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/ultrasound') }}"><i class="bi bi-arrow-right me-2"></i>Advanced Ultrasound Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/services/general-medicine') }}"><i class="bi bi-arrow-right me-2"></i>General and Family Medicine</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/services/obstetrics') }}"><i class="bi bi-arrow-right me-2"></i>Obstetrics & Gynaecology Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/services/eye') }}"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/services/surgery') }}"><i class="bi bi-arrow-right me-2"></i>General Surgery</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/services/pharmacy') }}"><i class="bi bi-arrow-right me-2"></i>Pharmacy Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 glight-color" href="{{ url('/services/laboratory') }}"><i class="bi bi-arrow-right me-2"></i>Laboratory Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 light-color" href="{{ url('/services/ultrasound') }}"><i class="bi bi-arrow-right me-2"></i>Advanced Ultrasound Services</a>
                         </div>
                     </div>
     

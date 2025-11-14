@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
+     <title>Magazine Clinic, Kumasi | Clinic & Medical Services, Pine Avenue</title>
      @include('includes.in_favicon') 
     <!-- Google Web Fonts -->
 </head>
@@ -107,34 +107,30 @@
                     </div>
                     <!-- Comment Form End -->
                 </div>
-				
-				
-    
                 <!-- Sidebar Start -->
                 <div class="col-lg-4">
                     <!-- Search Form Start -->
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
+                   <!--  <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="input-group">
                             <input type="text" class="form-control p-3" placeholder="Keyword">
                             <button class="btn metro-fill text-white px-4"><i class="bi bi-search"></i></button>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Search Form End -->
-    
     
                  <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="mb-0">Other Services</h3>
+                            <h3 class="mb-0 light-color">Other Services</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-						    <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/generalmedicine"><i class="bi bi-arrow-right me-2"></i>General Medicine</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/obstetrics"><i class="bi bi-arrow-right me-2"></i>Obstetrics/Gynaecology</a>
-							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/dental"><i class="bi bi-arrow-right me-2"></i>Dental Care</a>
+						    <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/general-medicine"><i class="bi bi-arrow-right me-2"></i>General Medicine</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/obstetrics"><i class="bi bi-arrow-right me-2"></i>Obstetrics/Gynaecology</a>
+							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/dental"><i class="bi bi-arrow-right me-2"></i>Dental Care</a>
                             <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv3.php"><i class="bi bi-arrow-right me-2"></i>Pediatrics</a> -->
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/eye"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/surgery"><i class="bi bi-arrow-right me-2"></i>Surgery</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/pharmacy"><i class="bi bi-arrow-right me-2"></i>Pharmacy</a>
-							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/ultrasound"><i class="bi bi-arrow-right me-2"></i>Ultrasound Scan Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/eye"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/surgery"><i class="bi bi-arrow-right me-2"></i>Surgery</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/pharmacy"><i class="bi bi-arrow-right me-2"></i>Pharmacy</a>
+							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2 gold-text" href="/services/ultrasound"><i class="bi bi-arrow-right me-2"></i>Ultrasound Scan Services</a>
 							
                         </div>
                     </div>

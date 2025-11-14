@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magazine Clinic, Kumasi | Hospital & Medical Services, Pine Avenue</title>
+    <title>Magazine Clinic, Kumasi | Clinic & Medical Services, Pine Avenue</title>
      @include('includes.in_favicon') 
 </head>
 <body>
@@ -148,15 +148,12 @@
                     </form>
                 </div>
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
-                    <!-- <iframe class="position-relative rounded w-100 h-100"
-                        src="https://www.google.com/maps/place/Magazine+Clinic/@6.6936439,-1.6357169,19z/data=!4m6!3m5!1s0xfdb96e2cabe2adb:0xdd4a3d8f84996c88!8m2!3d6.6931064!4d-1.6359353!16s%2Fg%2F11bzx19vqq?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D"
-                        frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe> -->
+                   <iframe class="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1981.3113685457756!2d-1.6355537839513312!3d6.693561466829145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1763157946754!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                        <iframe class="position-relative rounded w-100 h-100"
+                        <!-- <iframe class="position-relative rounded w-100 h-100"
                         src="https://maps.google.com/maps?width=150%60&amp;height=600&amp;hl=en&amp;q=4%20Barekese%20Road,%20Abrepo%20Junction%20+(Metro%20Health%20Services)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                         frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+                        tabindex="0"></iframe> -->
                 </div>
             </div>
         </div>

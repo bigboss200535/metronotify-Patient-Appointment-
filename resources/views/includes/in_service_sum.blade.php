@@ -10,7 +10,7 @@
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid" src="{{ asset('img/service-9.jpg') }}" alt="Magazine clinic General Medicine">
-                            <a class="position-absolute top-0 start-0 light-color-fill text-white rounded-end mt-5 py-2 px-4" href="{{ url('/services/generalmedicine') }}">General Medicine</a>
+                            <a class="position-absolute top-0 start-0 light-color-fill text-white rounded-end mt-5 py-2 px-4" href="{{ url('/services/general-medicine') }}">General Medicine</a>
                         </div>
                         <div class="p-4">
                             <h4 class="mb-3"></h4>
@@ -23,7 +23,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('img/service-7.jpg') }}" alt="Magazine Clinic ANC">
+                            <img class="img-fluid" src="{{ asset('img/service-1-1.jpg') }}" alt="Magazine Clinic ANC">
                             <a class="position-absolute top-0 start-0 light-color-fill text-white rounded-end mt-5 py-2 px-4" href="{{ url('/services/obstetrics') }}">Obstetrics And Gynaecology</a>
                         </div>
                         <div class="p-4">
