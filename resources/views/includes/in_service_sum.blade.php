@@ -10,7 +10,7 @@
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
                             <img class="img-fluid" src="{{ asset('img/service-9.jpg') }}" alt="Magazine clinic General Medicine">
-                            <a class="position-absolute top-0 start-0 light-color-fill text-white rounded-end mt-5 py-2 px-4" href="{{ url('/services/general') }}">General Medicine</a>
+                            <a class="position-absolute top-0 start-0 light-color-fill text-white rounded-end mt-5 py-2 px-4" href="{{ url('/services/generalmedicine') }}">General Medicine</a>
                         </div>
                         <div class="p-4">
                             <h4 class="mb-3"></h4>

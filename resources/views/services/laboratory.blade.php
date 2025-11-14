@@ -127,14 +127,14 @@
                             <h3 class="mb-0">Other Services</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-						    <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/general"><i class="bi bi-arrow-right me-2"></i>General/Family Medicine</a>
+						    <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/generalmedicine"><i class="bi bi-arrow-right me-2"></i>General Medicine</a>
                             <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/obstetrics"><i class="bi bi-arrow-right me-2"></i>Obstetrics/Gynaecology</a>
-							<!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv4.php"><i class="bi bi-arrow-right me-2"></i>In Vitro Fertilization</a> -->
+							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/dental"><i class="bi bi-arrow-right me-2"></i>Dental Care</a>
                             <!-- <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv3.php"><i class="bi bi-arrow-right me-2"></i>Pediatrics</a> -->
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv6.php"><i class="bi bi-arrow-right me-2"></i>Internal Medicine</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv7.php"><i class="bi bi-arrow-right me-2"></i>Surgery</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv8"><i class="bi bi-arrow-right me-2"></i>Pharmacy</a>
-							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="serv5.php"><i class="bi bi-arrow-right me-2"></i>Ultrasound Scan Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/eye"><i class="bi bi-arrow-right me-2"></i>Eye Care</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/surgery"><i class="bi bi-arrow-right me-2"></i>Surgery</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/pharmacy"><i class="bi bi-arrow-right me-2"></i>Pharmacy</a>
+							<a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="/services/ultrasound"><i class="bi bi-arrow-right me-2"></i>Ultrasound Scan Services</a>
 							
                         </div>
                     </div>
